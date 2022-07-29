@@ -15,12 +15,14 @@ class Tests
 
     public function teste_the_soma_result()
     {
-        $result = $this->calculator->soma(4, 2);
+        echo "teste_the_soma_result";
+        $result = $this->calculator->soma(4, 3);
 
         $this->fail = $result !== 6;
 
         if ($this->fail) {
-            exit(0);
+            echo "Erro no resultado";
+            exit(1);
         }
     }
 }
