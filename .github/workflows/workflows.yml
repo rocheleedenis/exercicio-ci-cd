@@ -16,5 +16,5 @@ jobs:
           php-version: '8.1'
 
       - name: Teste da aplicação
-        run: php Tests.php
+        run: php index.php
 
